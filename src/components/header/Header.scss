@@ -1,0 +1,37 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 70px;
+    user-select: none;
+    background-color: azure;
+
+
+    .logo_container{
+     justify-self: start;  
+        .logo{
+            width: 155px;
+            height: 30.51px;
+            align-self: center;
+        }
+    }
+
+    .links{
+        justify-self: end;
+        .link{
+            text-decoration: none;
+            padding: 0 20px;
+            font-family: 'Syne', sans-serif;
+            font-size: 17px;
+            color: #3A3A3A;
+            width: fit-content;
+            font-weight: 500;
+          
+            &:hover{
+                color: #01cda9;
+            }
+        }
+    }
+}

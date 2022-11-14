@@ -1,0 +1,19 @@
+.button{
+    background:  #01CDA9;
+    border-radius: 6.66667px;
+    width: 400px;
+    height: 39px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.3333px;
+    line-height: 16px;
+    cursor: pointer;
+    &:hover{
+        background-color: #1effd6;
+
+    }
+}
