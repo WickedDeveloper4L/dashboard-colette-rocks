@@ -1,10 +1,12 @@
 import React from 'react'
-import HeaderDb from './header-db/HeaderDb'
+import Header from './header/Header'
+import Navigation from './navigation/Navigation'
 
 const Dashboard = () => {
   return (
     <div>
-    <HeaderDb/>
+    <Header/>
+    <Navigation/>
     </div>
   )
 }

@@ -7,7 +7,6 @@ import SignUp from '../../components/sign-up-form/SignUpForm'
 const Home = () => {
   return (
     <div>
-        
         <Routes>
         <Route path='/' element={<LoginForm/>}/>
         <Route path='/signUp' element={<SignUp/>}/>
