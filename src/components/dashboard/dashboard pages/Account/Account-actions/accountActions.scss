@@ -1,0 +1,148 @@
+.account_controls{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .greeting{
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #3A3A3A;  
+    }
+
+    .cash_container{
+        display: flex;
+        gap: 1rem;
+        
+
+        .total_balance{
+           width: 243px;
+            height: 100px;
+            background: #01CDA9;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: 20% 80%; 
+            padding: 1rem;
+            .icon{
+                width: 25px;
+                height: 25px;
+                color: #3A3A3A;
+            }
+
+          .balance{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            .title{
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                color: #3A3A3A;
+            }
+
+            .cash{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                
+            }
+
+          }
+        }
+        .fund_balance{
+            width: 243px;
+            height: 100px;
+            background: #ffffff;
+            border-radius: 8px; 
+            display: grid;
+            grid-template-columns: 20% 80%;
+            padding: 1rem; 
+
+            .icon{
+                width: 25px;
+                height: 25px;
+                color: #01CDA9;
+            }
+         .balance{
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .title{
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                color: #3A3A3A;
+            }
+            .cash{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #3A3A3A;
+            }
+         }
+        }
+        
+    }
+    .activities{
+        display: grid;
+        grid-template-columns: repeat(3, 10rem);
+        gap: 5rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+        a{
+            text-decoration: none;
+            color:  #3A3A3A;
+        }
+        .content{
+            display: grid;
+            width: auto;
+            height: 50px;
+            grid-template-columns: 3rem auto;
+            align-content: center;
+            background: #FFFFFF;
+            border-radius: 10px;
+            cursor: pointer;
+            
+            
+            .text{
+                align-self: center;
+                font-weight: 700;
+                text-decoration: none;
+                color:  #3A3A3A;
+            
+
+            }
+            .icon{
+              width: 60px;
+              height: 60px;
+              background: #01CDA9; 
+              padding: 10px; 
+              border-radius: 50%;
+              z-index: 1;
+              color: #FFFFFF;
+              margin-left: -22px;
+              
+
+              
+              &.two{
+                background: #FF8947;
+              }
+
+              &.three{
+                background: #204A89;
+              }
+            }
+        }
+    }
+}

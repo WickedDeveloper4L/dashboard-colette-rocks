@@ -25,7 +25,7 @@ const LoginForm = () =>{
             setInfo({email:"",
                     password:""})
                     
-            navigate('/DashboardPage')
+            navigate('/dashboard/Account')
         } catch(error){
             console.log(error)
         }

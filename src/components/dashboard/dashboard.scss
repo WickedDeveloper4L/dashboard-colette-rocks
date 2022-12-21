@@ -1,0 +1,25 @@
+.dashboard{
+    height: 100vh;
+
+    .header{
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+  .dashboard_content{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    position: relative;
+
+    .navigation{
+      position: sticky;
+      top: 0px;
+      left: 0;
+      width: 100%;
+    }
+
+    .flow{
+      overflow-y: scroll;
+    }
+}  
+}

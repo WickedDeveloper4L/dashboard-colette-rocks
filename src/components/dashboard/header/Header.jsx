@@ -6,10 +6,9 @@ const Header = () => {
     <div className='header'>
         <div className='logo_container'>
             <img src={Logo} alt='Logo' className='logo'/>
+            <h3 className="text">Dashboard</h3>
         </div>
         <div className='links'>
-            <a href="*" className="link">Home</a>
-            <a href="*" className="link">About Us</a>
             <a href="*" className="link">FAQs</a>
         </div>
     </div>

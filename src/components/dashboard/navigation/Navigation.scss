@@ -1,5 +1,79 @@
 .navigation{
     height: 100vh;
-    width: 250px;
+    width: 100%;
     background: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        text-align: center;
+        padding-top: 3rem;
+        color: #FFFFFF;
+        .name{
+            font-family: 'Syne';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .email{
+            font-family: 'Syne';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 19px;
+
+        }
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: #FFFFFF;
+        justify-content: center;
+        
+
+        a{
+            font-family: 'Syne';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-decoration: none;
+            color: #FFFFFF; 
+            padding: 1.5rem 0rem 1rem 0rem;
+            padding-left: 4rem;
+            width: 100%;
+            align-items: center;
+            align-self: center;
+        
+            
+        }
+        .link{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .icon{
+            width: 25px;
+            height: 25px;
+        } 
+        .Link-active{
+            background: rgba(1, 205, 169, 0.25);
+            border: 20px 40px;
+        }
+
+    }
 }
