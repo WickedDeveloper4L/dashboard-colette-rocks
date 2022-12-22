@@ -14,7 +14,7 @@ const Navigation = () => {
     <h3 className="email">johndoe@gmail.com</h3>
     </div>
     <div className="links">
-    <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/Account'><TfiWallet className='icon'/>My Wallet</NavLink>
+    <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/Account/Deposit'><TfiWallet className='icon'/>My Wallet</NavLink>
     <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/Transactions'><RiExchangeDollarFill className='icon'/>Transactions</NavLink>
     <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/Profile'><CgProfile className='icon'/>Profile</NavLink>
     <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/settings'><FiSettings className='icon'/>Settings</NavLink>
