@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './header/Header'
 import Navigation from './navigation/Navigation'
 import { Outlet } from 'react-router-dom'
 import './dashboard.scss'
+
 
 const Dashboard = () => {
   return (

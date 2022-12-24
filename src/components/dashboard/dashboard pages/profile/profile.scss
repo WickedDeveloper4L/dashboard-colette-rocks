@@ -1,0 +1,114 @@
+.profile-container{
+    width: 100%;
+    background: #e7f0f3;
+    display: grid;
+    justify-content: center;
+
+    .profile-content{
+        width: 885px;
+        background: #fff;
+        padding: 60px;
+        height:65rem ;
+        margin: 4rem;
+        border-radius: 10px;
+        box-shadow: 5px 4px 20px rgba(0,0,0,0.1);
+        // display: grid;
+
+        .profile-pic{
+            display: grid;
+            justify-content: center;
+            margin-top: 4rem;
+            .pic{
+                position: relative;
+            }
+
+            .plus{
+                position: absolute;
+                left: 74rem;
+                top: 23rem;
+
+            }
+        }
+
+        .input-field{
+
+            .grid-inputs{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                justify-content: center;
+                margin-top: 2rem;
+
+                .input{
+                    width: 23rem;
+                    height: 3.3rem;
+                    border: 2.2px solid rgb(214, 211, 211);
+                }
+            }
+
+            .email{
+                margin-top: 2rem;
+                input{
+                    width: 100%;
+                    height: 3.3rem;
+                    border: 2.2px solid rgb(214, 211, 211);
+                }
+            
+            }
+
+            .phone-container{
+                margin-top: 2.6rem;
+
+                label{
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+
+                .phone{
+                    border: 2.2px solid rgb(214, 211, 211);
+                    padding: 10px;
+                    border-radius: 8px;
+                    margin-top: 1rem;
+    
+                    .PhoneInputInput{
+                        height: 2rem;
+                        outline: none;
+                        font-size: 20px;
+                        font-family: inherit;
+                        border: none;
+                    }
+                    .PhoneInputCountryIcon {
+                        width: 3rem;
+                        height: 2rem;
+                    }
+                }
+
+            }
+            .buttons{
+                display: grid;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 5rem;
+
+                button{
+                    padding: 10px 30px;
+                    width: 22rem;
+                    font-family: inherit;
+                    font-size: 20px;
+                    color: #fff;
+                    background: #01CDA9;
+                    outline: none;
+                    border: none;
+                    border-radius: 11px;
+                    cursor: pointer;
+
+                }
+                .black{
+                    background: #2F2F2F;
+                }
+            }
+
+            
+        }
+    }
+}
