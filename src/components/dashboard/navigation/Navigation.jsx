@@ -5,11 +5,13 @@ import {TfiWallet} from 'react-icons/tfi'
 import {RiExchangeDollarFill} from 'react-icons/ri'
 import {CgProfile} from 'react-icons/cg'
 import {FiSettings} from 'react-icons/fi'
+import Pic from '../../../pngs/Ellipse7.png'
 
 const Navigation = () => {
   return (
     <div className='navigation'>
     <div className="profile">
+    <img src={Pic} alt="pic" className='pic'/>
     <h2 className="name">John Doe</h2>
     <h3 className="email">johndoe@gmail.com</h3>
     </div>
