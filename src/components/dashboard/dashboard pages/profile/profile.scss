@@ -18,14 +18,17 @@
             display: grid;
             justify-content: center;
             margin-top: 4rem;
+            position: relative;
+            align-self: center;
+            align-items: center;
             .pic{
                 position: relative;
             }
 
             .plus{
                 position: absolute;
-                left: 74rem;
-                top: 23rem;
+                left: 25.5rem;
+                top: 8.5rem;
 
             }
         }
