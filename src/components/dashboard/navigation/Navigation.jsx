@@ -6,6 +6,7 @@ import {RiExchangeDollarFill} from 'react-icons/ri'
 import {CgProfile} from 'react-icons/cg'
 import {FiSettings} from 'react-icons/fi'
 import Pic from '../../../pngs/Ellipse7.png'
+import Logo from '../../../images/Logo white.png'
 
 const Navigation = () => {
   return (
@@ -21,6 +22,7 @@ const Navigation = () => {
     <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/Profile'><CgProfile className='icon'/>Profile</NavLink>
     <NavLink className={({isActive}) => isActive ? "Link-active link" : "Link-inactive link"} to='/dashboard/settings'><FiSettings className='icon'/>Settings</NavLink>
     </div>
+      <img src={Logo} alt="colette-rocks" className='logo'/>
     </div>
   )
 }
