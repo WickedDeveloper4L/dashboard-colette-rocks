@@ -126,7 +126,7 @@ const SignUp = () =>{
         </div>
         </div>
         </div>
-        <div ><Carousel className='carousel'/></div>        
+        <Carousel className='carousel'/>
         </div>
     )
 }
