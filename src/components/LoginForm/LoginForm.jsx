@@ -43,6 +43,7 @@ const LoginForm = () =>{
 
     
     return(
+      
         <div className='container'>
         <div className='login-page'>
         <img src={logo} alt="logo" />
@@ -82,9 +83,8 @@ const LoginForm = () =>{
         </div>
         </div>
         </div>
-        <Carousel/>
-        </div>
-       
+        <Carousel className='carousel'/>
+        </div>  
     )
 }
 
