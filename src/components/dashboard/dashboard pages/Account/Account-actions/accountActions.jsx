@@ -27,11 +27,11 @@ const AccountActions = () => {
       </div>
     </div>
     <div className="activities">
-      <NavLink className="content" to='/dashboard/Account/Deposit'>
+      <NavLink  className={({isActive}) => isActive ? "Link-active content" : "Link-inactive content"}  to='/dashboard/Account/Deposit'>
         <FaTelegramPlane className='icon one'/>
         <div className="text"><p>Deposit</p></div>
       </NavLink>
-    <NavLink className="content" to='/dashboard/Account/Withdraw'>
+    <NavLink className={({isActive}) => isActive ? "Link-active content" : "Link-inactive content"}  to='/dashboard/Account/Withdraw'>
       <FaTelegramPlane className='icon three'/>
       <div className="text"><p>Withdraw</p></div>
     </NavLink>

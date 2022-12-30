@@ -26,3 +26,19 @@
         }
     }
 }
+@media screen and (max-width: 1024px) {
+    .Account_page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .carousel{
+            .logo{
+                display: none;
+            }
+            .swiper{
+                display: none;
+            }
+        }
+    }
+    
+}

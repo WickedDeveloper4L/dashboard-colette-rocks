@@ -21,3 +21,28 @@
         padding-bottom: 2rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    .withdraw{
+        width: 343px;
+    
+        .title{
+            font-size: 14px;
+        }
+    
+        .form{
+            padding-bottom: 2rem;
+
+            input{
+                width: 250px;
+                height: 35px;
+            }
+
+            button{
+                width: 250px;
+                height: 40px;
+            }
+        }
+    }
+}
