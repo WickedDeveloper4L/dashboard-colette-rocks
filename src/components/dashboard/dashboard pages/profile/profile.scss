@@ -115,3 +115,14 @@
         }
     }
 }
+@media screen and (max-width:1024px) {
+    .profile-container{
+        width: 100vw;
+        overflow: hidden;
+
+        .profile-content{
+            overflow: hidden;
+        }
+    }
+
+}

@@ -1,11 +1,7 @@
 .dashboard{
     height: 100vh;
 
-    .header{
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
+    
   .dashboard_content{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -24,3 +20,22 @@
     }
 }  
 }
+
+@media screen and (max-width:1024px) {
+
+      .dashboard_content{
+        display: flex;
+        width: 100vw;
+
+        .navigation{
+          display: none;
+      }
+
+        // .flow{
+        //   width: 100vw;
+        // }
+
+      }
+
+  }
+
