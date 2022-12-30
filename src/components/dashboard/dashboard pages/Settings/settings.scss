@@ -15,6 +15,9 @@
         border-radius: 10px;
         box-shadow: 5px 4px 20px rgba(0,0,0,0.1);
 
+        .title{
+            display: none;
+        }
         .subtitle{
             font-family: 'Syne';
             font-style: normal;
@@ -96,4 +99,97 @@
         }
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    .settings_page{
+        width: 100%;
+        background: #e7f0f3;
+        display: grid;
+        justify-content: center;
+    
+    
+        .settings_container{
+            width: 343px;
+            height: 725px;
+            padding: 40px 20px;
+
+            .title{
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                display: block;
+
+                color: #3A3A3A;
+                padding-bottom: 1rem;
+            }
+    
+            .subtitle{
+                font-size: 11px;
+            }
+    
+    
+            .security{
+    
+                .security_action{
+                    grid-template-columns: 10% 75% 15%;
+
+                    .icon{
+                        width: 16px;
+                        height: 16px;
+                    }
+    
+                    .text{
+                        font-size: 12px;
+                    }
+                }
+
+                form{
+                    label{
+                        font-size: 12px;
+                    }
+                    input{
+                        width: 250px;
+                        height: 30px;
+                    }
+
+                    button{
+                        width: 250px;
+                        height: 30px;
+                        font-size: 12px;
+                    }
+                }
+                
+            }
+            
+            .display_container{
+                display: grid;
+                gap: 1rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                
+    
+                .display_action{
+                    display: grid;
+                    grid-template-columns: 10% 75% 15%;
+                   
+    
+    
+                    .icon{
+                        width:16px;
+                        height: 16px;
+                    }
+    
+                    .text{
+                        font-size: 12px;
+    
+                    }
+                }
+    
+            }
+        }
+    
+    }
 }

@@ -122,7 +122,7 @@
                 font-weight: 700;
                 text-decoration: none;
                 color:  #3A3A3A;
-            
+                font-size: 14px;
 
             }
             .icon{
@@ -146,5 +146,105 @@
               }
             }
         }
+
+        .Link-active{
+            background: rgba(1, 205, 169, 0.25);
+            border: 20px 40px;
+        }
     }
+}
+
+
+@media screen and (max-width: 768px) {
+  
+    .account_controls{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        width: 100vw;
+
+        .greeting{
+            font-size: 12px;
+        }
+    
+        .cash_container{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+    
+            .total_balance{
+               width: 330px;
+                height: 100px;
+                display: grid;
+                .icon{
+                    width: 29px;
+                    height: 29px;
+                    color: #3A3A3A;
+                }
+    
+              .balance{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                .title{
+                    font-size: 12px;
+                }
+    
+                .cash{
+                    font-size: 24px;
+                }
+    
+              }
+            }
+            .fund_balance{
+                width: 330px;
+                height: 100px;
+               
+                .icon{
+                    width: 29px;
+                    height: 29px;
+                }
+             .balance{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+    
+                .title{
+                    font-size: 12px;
+                }
+                .cash{
+                    font-size: 24px;
+                }
+             }
+            }
+            
+        }
+        .activities{
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 1rem;
+     
+            .content{
+                display: grid;
+                width: 120px;
+                height: 35px;
+                grid-template-columns: 2rem auto;
+               
+                
+                .text{
+                    font-size: 12px;
+    
+                }
+                .icon{
+                  width: 40px;
+                  height: 40px;
+                }
+            }
+            
+        }
+    }
+    
 }

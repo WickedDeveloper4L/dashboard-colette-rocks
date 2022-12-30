@@ -32,6 +32,7 @@ const Settings = () => {
   return (
     <div className="settings_page">
       <div className="settings_container">
+      <h3 className="title">Settings</h3>
       <h3 className="subtitle">Security & Login</h3>
       <div className="security">
       <div className="security_action">
@@ -48,7 +49,7 @@ const Settings = () => {
       <MdVpnKey className='icon'/>
       <h3 className="text">Change Password</h3>
       </div>
-      <div className="password_change">
+      <form className="password_change">
         <CInput
         type='password'
         name='currentPassword'
@@ -80,7 +81,7 @@ const Settings = () => {
         className='input'
         />
         <CButton text='Update password'/>
-      </div>
+      </form>
 
       </div>
        <h3 className="subtitle">Display</h3>
