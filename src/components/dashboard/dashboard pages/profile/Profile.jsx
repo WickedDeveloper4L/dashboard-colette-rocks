@@ -31,7 +31,7 @@ const handleChange = (event) => {
   return (
     <div className="profile-container">
     <div className="profile-content">
-    <div className="intro"> <h3>Personal Information</h3>
+    <div className="intro"><h3>Personal Information</h3>
       <p>Here's what we know about you. Please update it if there have been any recent changes.</p>
 </div>
 <div className="profile-pic">

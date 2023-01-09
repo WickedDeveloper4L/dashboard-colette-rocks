@@ -13,7 +13,7 @@
         border-radius: 10px;
         box-shadow: 5px 4px 20px rgba(0,0,0,0.1);
         // display: grid;
-
+        
         .profile-pic{
             display: grid;
             justify-content: center;
@@ -114,4 +114,107 @@
             
         }
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-container{
+    
+        .profile-content{
+            width: 343px;
+            background: #fff;
+            padding: 40px 20px;
+            margin: 2rem;
+            .intro{
+                h3{
+                    font-family: 'Syne';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                p{
+                    font-family: 'Syne';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12.8px;
+                }
+            }
+            .profile-pic{
+                .pic{
+                    position: relative;
+                    width: 104.32px;
+                    height: 104.32px;
+                }
+    
+                .plus{
+                    position: absolute;
+                    left: 10.5rem;
+                    top: 5.8rem;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+    
+            .input-field{
+    
+                .grid-inputs{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-top: 0;
+                    gap: 0rem;
+                    
+                    label{
+                        font-size: 12.8px;
+                    }
+                    .input{
+                        width: 305px;
+                        height: 35px;
+                    }
+                }
+    
+                .email{
+                    margin-top: 1rem;
+                    label{
+                        font-size: 12.8px;
+                    }
+                    input{
+                        width: 305px;
+                        height: 35px;
+                        border: 2.2px solid rgb(214, 211, 211);
+                    }
+                
+                }
+    
+                .phone-container{
+                    margin-top: 1rem;
+                    label{
+                        font-weight: bold;
+                        font-size: 12.8px;
+                    }
+    
+                    .phone{
+                        margin-top: 1rem;
+        
+                        .PhoneInputInput{
+                            font-size: 12.8px;
+                        }
+                    }
+    
+                }
+                .buttons{                    margin-top: 2rem;
+    
+                    button{
+                        padding: 10px 20px;
+                        width: 296.8px;
+                        height: 40px;
+                        font-size: 12.0598px;
+    
+                    }
+                }
+    
+                
+            }
+        }
+    }
+   
 }
