@@ -9,7 +9,6 @@ const AccountActions = () => {
   return (
     <div>
     <div className="account_controls">
-      <h3 className="greeting">Hello John</h3>
       <div className="cash_container">
         <div className="total_balance">
           <IoIosCash className='icon'/>
