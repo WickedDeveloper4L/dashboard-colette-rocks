@@ -27,14 +27,15 @@
 
 @media screen and (max-width: 1024px) {
   
-.dashboard{
+  .dashboard{
 
-  .dashboard_content{
-    display: flex;
-    width: 100vw;
-    
-    .navigation{
-      display: none;
+    .dashboard_content{
+      display: grid;
+      width: 100vw;
+      
+      .navigation{
+        display: none;
+      }
     }
   }
 }
